@@ -1,0 +1,18 @@
+.LOGO{
+    width: 200px;
+    height: 200px;
+}
+.headerwrap{
+    width:1390px;
+    height:200px;
+}
+.banner{
+    width : 1000px;
+    height:200px;
+    margin-left: 200px;
+    margin-top: -200px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}  

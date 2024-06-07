@@ -1,0 +1,60 @@
+.slideshow
+{
+	width:800px;
+	overflow:hidden;
+	border:15px solid #ccc;
+}
+.slide1
+{
+	width:3200px;
+	position:relative;
+	animation-name: slider;
+	animation-duration:20s;
+	animation-iteration-count: infinite;
+}
+.slide1 img
+{
+	float:left;
+}
+@keyframes slider
+{
+	0%
+	{
+		left:0px;
+	}
+	20%
+	{
+		left:0px;
+	}
+	25%
+	{
+		left:-800px;
+	}
+	45%
+	{
+		left:-800px;
+	}
+	50%
+	{
+		left:-1600px;
+	}
+	70%
+	{
+		left:-1600px;
+		
+		
+	}
+	75%
+	{
+		left:-2400px;
+	}
+	95%
+	{
+		left:-2400px;
+	}
+	100%
+	{
+		left:-3200px;
+		}
+	
+}

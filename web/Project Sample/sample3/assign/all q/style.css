@@ -1,0 +1,37 @@
+*{
+    padding: 4;
+    margin: 2;
+}
+.signup{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/snowfal.jpg);
+    background-size: cover;
+    text-align: left;
+    color: #f0eef0;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration:none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border:1px solid #ff0000;
+    background: #ff0000;
+    transition: 1s;
+}
+.red-btn{
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+}
+
+.red-btn:hover{
+    color:  #fff;
+}

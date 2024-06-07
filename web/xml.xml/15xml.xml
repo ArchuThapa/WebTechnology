@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Employee>
+<Name>
+<FirstName>Archana</FirstName>
+<LastName>Thapa</LastName>
+</Name>
+<Contact>
+<MobileNo>9825383919</MobileNo>
+<LandLine>02134567</LandLine>
+</Contact>
+<Address>
+<City>Kathmandu</City>
+<Street>galli-90</Street>
+<Tole>GodarGau</Tole>
+</Address>
+</Employee>

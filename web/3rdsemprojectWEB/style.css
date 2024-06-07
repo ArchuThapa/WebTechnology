@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(37, 34, 34, 0.75), rgba(6, 4, 4, 0.75)), url(collegefamily2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 80px;
+    cursor: pointer;
+    border-radius: 200px;
+    margin-left: -80px;
+    margin-top: -20px;
+    outline: none;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20 px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: chartreuse;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: antiquewhite;
+}
+
+.content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.content button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: chocolate;
+    cursor: pointer;
+    position: relative;
+}
+
+span {
+    background-color: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+}
+
+.search {
+    display: flex;
+
+}
+
+#searchbox {
+    height: 35px;
+    width: 225px;
+    padding-left: 15px;
+    outline: none;
+    border-color: #009688;
+    border-radius: 25px;
+    background-color: transparent;
+    margin-right: 10px;
+
+
+}
+
+.searchimg {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    margin-top: 7px;
+
+}
+
+.aboutbca {
+    padding: 20px;
+}
+
+.aboutbca h1 {
+    padding-top: 0;
+    color: chocolate;
+}
+
+.aboutbca p {
+    margin-right: 50px;
+    font-size: x-large;
+    color: blue;
+}
+
+.whybca {
+    padding: 20px;
+}
+
+.whybca h1 {
+    color:chocolate;
+    text-align: center;
+}
+
+.whybca p {
+    margin-right: 50px;
+    font-size: x-large;
+    color: blue;
+
+}
+
+.photos {
+    width: 80%;
+    margin: auto;
+
+
+
+}
+
+.photos h1 {
+    color: aquamarine;
+    padding: 20px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
+}
+
+.photo-col {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover {
+    background: rgba(20, 11, 12, 0.671);
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    padding-top: 5px;
+
+}
+
+.footer h1 {
+    color: blueviolet;
+    padding-bottom: 5px;
+}
+
+.textbox {
+    text-align: center;
+    padding: 500px;
+    color: aquamarine;
+    font-weight: inherit;
+}
+
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.location iframe {
+    width: 100%;
+}
+
+.contact-us:after {
+    width: 100%;
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.contact-cols {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    padding-left: 30px;
+    margin-top: 20px;
+    display: flex;
+}
+.contact-cols input,
+.contact-cols textarea {
+    width: 200%;
+    padding: 15px;
+    margin-bottom: 17px;
+    border: 1px sandybrown;
+    float: left;
+
+}
+.contact-ab{
+    text-align: center;
+    padding: 50px;
+    color: brown;
+    font-style: oblique;
+    font-size: x-large;
+}
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    color:blueviolet;
+    border: 1px solid #fff;
+    background: transparent;
+    cursor: pointer;
+    padding: 12px 34px;
+    font-size: 13px;
+   
+   
+}
+
+.hero-btn:hover {
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+

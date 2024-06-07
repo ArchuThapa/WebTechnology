@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+
+		form {
+			background-color: #fff;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			margin: 50px auto;
+			padding: 20px;
+			width: 500px;
+		}
+
+		h2 {
+			color: #333;
+			font-size: 28px;
+			font-weight: normal;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+
+		input[type=text], input[type=email], input[type=password] {
+			border-radius: 5px;
+			border: none;
+			font-size: 16px;
+			margin-bottom: 20px;
+			padding: 10px;
+			width: 100%;
+		}
+
+		input[type=submit] {
+			background-color: #4CAF50;
+			border: none;
+			border-radius: 5px;
+			color: #fff;
+			cursor: pointer;
+			font-size: 16px;
+			margin-top: 20px;
+			padding: 10px;
+			width: 100%;
+		}
+
+		label {
+			color: #666;
+			display: block;
+			font-size: 18px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+
+		.error {
+			color: #f00;
+			font-size: 14px;
+			margin-top: -10px;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<h2>Registration Form</h2>
+		<label for="name">Name</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">Email</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="password">Password</label>
+		<input type="password" id="password" name="password" required>
+
+		<label for="confirm-password">Confirm Password</label>
+		<input type="password" id="confirm-password" name="confirm-password" required>
+
+		<input type="submit" value="Register">
+	</form>
+</body>
+</html>

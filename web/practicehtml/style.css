@@ -1,0 +1,24 @@
+.container {
+background: white;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 15px;
+}
+.container h2 {
+    font-size: 30px;
+}
+.container h3 {
+    font-size: 15px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+.card div{
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+}

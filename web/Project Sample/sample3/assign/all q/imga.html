@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>imagr gallery</title>
+        <style>
+            body{
+                background-color: aquamarine;
+            }
+            .gallery{
+                width: 80%;
+                margin: 100px auto 50px;
+                display:grid;
+                grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+                grid-gap: 30px;
+            }
+            .gallery img{
+                width: 80%;
+                cursor: pointer;
+            }
+            .gallery img:hover{
+            transform: scale(0.8);
+            border-radius: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="gallery">
+            <img src="image/c1.jpeg">
+            <img src="image/p2.webp">
+            <img src="image/p3.jfif">
+            <img src="image/pashupatinath.jpg">
+            <img src="image/psup.jpg">
+            <img src="image/snowfal.jpg">
+            <img src="image/kakv.jpg">
+            <img src="image/kvbgg.jpg">
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Employee>
+<Name>
+    <Firstname></Firstname>
+    <Lastname></Lastname>
+</Name>
+
+<Contact>
+    <Mobile></Mobile>
+    <Contact></Contact>
+</Contact>
+
+<Address>
+        <City></City>
+        <Street></Street>
+        <Tole></Tole>
+</Address>
+    </Employee>

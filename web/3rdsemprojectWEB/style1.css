@@ -1,0 +1,59 @@
+
+#header
+{
+    position: fixed;
+    z-index: index -1; ;
+    height:40px;
+    width: 99%;
+    background-color:cadetblue;
+    margin-bottom: 10px;
+    padding-right:1px;
+    padding-left:1px;
+
+    }
+
+#name {
+    float:left;
+	margin-left: 20px;
+	/* padding-bottom: 10px; */
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+}
+#email{
+    float:right;
+    font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #ffffff;
+    margin-right: 20px;
+
+}
+.highlight{
+    float:right;
+    margin-top:50px;
+    padding-left: 5px;
+    width:99%;
+    background-color:cornflowerblue;
+    
+}
+h3{
+     text-decoration:underline;
+}
+p{
+    font-family: sans-serif ;
+    font-size: medium;
+}
+
+.photo:after{
+   
+    content: "";
+    display: table;
+    clear: both;
+}
+.photo1{
+    float:left;
+    width:80%;
+}
+/* .photo2{
+  
+} */
